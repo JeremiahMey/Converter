@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Convert Height and Weight</title>
+</head>
+
+<body>
+    <h2 id="time"></h2>
+    <form id="height-form">
+        <div class="input-field height-field">
+            <div>
+                <label for="height">Height</label>
+                <input type="text" name="height" id="height" value="6'5&quot">
+            </div>
+            <input type="button" value="Convert" class="btn" id='height-btn' onclick="getHeight()">
+            <div id='height-convert'></div>
+        </div>
+    </form>
+    <form id="weight-form">
+        <div class="input-field weight-field">
+            <div>
+                <label for="weight">Weight</label>
+                <input type="text" name="weight" id="weight" value="220">
+            </div>
+            <input type="button" value="Convert" class="btn" id='weight-btn' onclick="getWeight()">
+            <div id='weight-convert'></div>
+        </div>
+    </form>
+    <script type="text/javaScript" src="app.js"></script>
+</body>
+
+</html>
